@@ -1,0 +1,18 @@
+a{
+    color: yellow;
+    background-color: green;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px auto;
+    width: 200px;
+    display:flow-root;
+    transition: 1s;
+}
+a:hover{
+    background:var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
